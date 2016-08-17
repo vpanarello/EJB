@@ -5,6 +5,7 @@
 	<projects>
 		<project>01_FolhaPagamento</project>
 		<project>01_FolhaPagamentoClient</project>
+		<project>01_FolhaPagamentoWeb</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

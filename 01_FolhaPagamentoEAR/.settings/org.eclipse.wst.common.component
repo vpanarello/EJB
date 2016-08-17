@@ -8,5 +8,9 @@
         <dependent-module archiveName="01_FolhaPagamentoClient.jar" deploy-path="/" handle="module:/resource/01_FolhaPagamentoClient/01_FolhaPagamentoClient">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="01_FolhaPagamentoWeb.war" deploy-path="/" handle="module:/resource/01_FolhaPagamentoWeb/01_FolhaPagamentoWeb">
+            <dependent-object>Module_1471475769716</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
     </wb-module>
 </project-modules>
