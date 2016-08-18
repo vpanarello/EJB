@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;02_CalculadoraWeb/WebContent/NewFile.xhtml&apos; to &apos;calculadora.xhtml&apos;" description="Rename resource &apos;NewFile.xhtml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/NewFile.xhtml" name="calculadora.xhtml" stamp="1471480098775" updateReferences="true"/>
+</session>

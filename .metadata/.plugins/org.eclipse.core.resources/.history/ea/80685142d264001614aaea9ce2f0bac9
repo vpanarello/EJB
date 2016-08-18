@@ -1,0 +1,31 @@
+package br.com.fiap.bean;
+
+import br.com.fiap.interfaces.FolhaPagamento;
+
+public class FolhaPagamentoBean implements FolhaPagamento {
+
+	@Override
+	public void setSalario(double salario) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void setDesconto(double taxa) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public double calcularINSS() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double calcularSalarioLiquido() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
