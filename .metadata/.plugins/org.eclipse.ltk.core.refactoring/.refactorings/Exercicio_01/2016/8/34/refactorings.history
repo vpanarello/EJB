@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;br.com.fiap.interfaces&apos; to &apos;Exercicio_01Client/ejbModule&apos;&#x0D;&#x0A;- Original project: &apos;Exercicio_01&apos;&#x0D;&#x0A;- Destination element: &apos;Exercicio_01Client/ejbModule&apos;&#x0D;&#x0A;- Original element: &apos;Exercicio_01/ejbModule/br.com.fiap.interfaces&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=Exercicio_01Client/ejbModule" element1="/ejbModule&lt;br.com.fiap.interfaces" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1471482384135" version="1.0"/>
+</session>
