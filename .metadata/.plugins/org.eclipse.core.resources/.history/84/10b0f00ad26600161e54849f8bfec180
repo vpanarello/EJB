@@ -1,0 +1,9 @@
+package br.com.fiap.bean;
+
+import javax.ejb.Remote;
+
+@Remote
+public interface LivrosBeanRemote {
+	void add(Livros livro);
+	List<Livros> getAll();
+}

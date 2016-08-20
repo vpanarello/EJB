@@ -1,0 +1,47 @@
+
+
+import java.io.IOException;
+
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import br.com.fiap.bean.LivrosBean;
+import br.com.fiap.bean.LivrosBeanRemote;
+
+@WebServlet("/livros")
+public class ServletLivros extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+    public ServletLivros() {
+        super();
+        
+    }
+
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		try {
+			InitialContext ctx = new InitialContext();
+			LivrosBeanRemote service = (LivrosBeanRemote) ctx.lookup("	ejb:/03_LivrosEJB/LivrosBean!br.com.fiap.bean.LivrosBeanRemote");
+		} catch (NamingException e) {
+			e.printStackTrace();
+		}
+		
+		
+		
+	
+		// response.getWriter().append("Served at: ").append(request.getContextPath());
+	}
+
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	
+		doGet(request, response);
+	}
+
+}

@@ -158,3 +158,27 @@
 
 !ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-08-17 22:34:37.669
 !MESSAGE Module Exercicio_01_EAR on WildFly  9.x  not yet fully deployed. Waiting...
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-08-20 09:36:14.905
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-08-20 09:36:14.909
+!MESSAGE Could not delete C:\opensource\wildfly9\standalone\deployments\Exercicio_01_EAR.ear. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2016-08-20 09:36:15.162
+!MESSAGE The server "WildFly  9.x " requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_66 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-08-20 09:36:16.476
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-08-20 09:36:31.555
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2016-08-20 09:37:58.989
+!MESSAGE The server "WildFly  9.x " requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_66 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-08-20 09:38:00.030
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-08-20 09:38:05.953
+!MESSAGE Server Startup Succeeded

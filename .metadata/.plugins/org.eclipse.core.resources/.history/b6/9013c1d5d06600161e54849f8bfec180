@@ -1,0 +1,14 @@
+package br.com.fiap.entity;
+
+import java.io.Serializable;
+
+
+@Entity
+@Table(name="livros", schema="livrosejb") 
+public class Livros implements Serializable {
+	
+	
+	
+	
+
+}
