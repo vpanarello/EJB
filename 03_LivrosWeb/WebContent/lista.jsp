@@ -8,12 +8,71 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 </head>
+<style>
+
+body {
+	font-family: sans-serif;
+}
+
+
+
+ td {
+	border: solid blue 1px;
+}
+
+#alert {
+	width: 200px;
+	background-color: red;
+	color: white;
+	text-align: center;
+
+}
+
+</style>
 <body>
-	<h1>Lista de Livros</h1>
-	<ul>
+
+
+	<c:choose>
+		<c:when test="${ok==true}">
+        <h5 id="alert">Cadastro Efetuado</h5>
+        <br />
+		</c:when>
+		<c:otherwise>
+		</c:otherwise>
+	</c:choose>
+
+
+	
+	
+	</h1>
+
+	<h2>Lista de Livros</h2>
+	
+	<table>
+		<tr>
+			<td>Titulo</td>
+			<td>Autor</td>
+			<td>Preco</td>
+		</tr>
 		<c:forEach var="liv" items="${lista}">
-			<li>${liv.titulo}</li>
+			<tr>
+				<td>
+					${liv.titulo}
+				</td>
+				<td>
+					${liv.autor}
+				</td>
+				<td>
+					${liv.preco}
+				</td>
+			</tr>
 		</c:forEach>
-	</ul>
+	
+	</table>
+	
+	<li>
+		<ul><a href="cadastro.jsp">Cadastro</a></ul>
+	</li>
+	
 </body>
 </html>

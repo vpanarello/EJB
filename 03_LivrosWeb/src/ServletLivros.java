@@ -47,8 +47,32 @@ public class ServletLivros extends HttpServlet {
 
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		Livros livro =  new Livros();
+		
+		livro.setAutor(request.getParameter("autor"));
+		livro.setTitulo(request.getParameter("titulo"));
+		livro.setPreco(Double.parseDouble(request.getParameter("preco")));
+		
+		try {
+			InitialContext ctx = new InitialContext();
+			LivrosBeanRemote service = (LivrosBeanRemote) ctx.lookup("ejb:/03_LivrosEJB/LivrosBean!br.com.fiap.bean.LivrosBeanRemote");
+			
+			service.add(livro);
+			
+			request.setAttribute("ok", true);
+			
+			
+			doGet(request, response);
+			
+			
+		} catch (NamingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 	
-		doGet(request, response);
+		
 	}
 
 }

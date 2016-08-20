@@ -182,3 +182,195 @@
 
 !ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-08-20 09:38:05.953
 !MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-08-20 10:58:18.234
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2016-08-20 10:58:21.596
+!MESSAGE The server "WildFly  9.x " requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_66 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-08-20 10:58:22.639
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-08-20 10:58:25.441
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-08-20 10:58:53.835
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2016-08-20 10:58:55.742
+!MESSAGE The server "WildFly  9.x " requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_66 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-08-20 10:58:56.786
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-08-20 10:58:59.790
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-08-20 11:01:53.163
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2016-08-20 11:01:55.083
+!MESSAGE The server "WildFly  9.x " requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_66 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-08-20 11:01:56.143
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-08-20 11:01:58.945
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-08-20 11:05:35.481
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2016-08-20 11:05:54.079
+!MESSAGE The server "WildFly  9.x " requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_66 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-08-20 11:05:55.129
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-08-20 11:05:58.032
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-08-20 11:08:17.177
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2016-08-20 11:08:20.891
+!MESSAGE The server "WildFly  9.x " requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_66 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-08-20 11:08:21.966
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-08-20 11:08:24.851
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-08-20 11:10:35.609
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2016-08-20 11:10:37.466
+!MESSAGE The server "WildFly  9.x " requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_66 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-08-20 11:10:38.516
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-08-20 11:10:41.321
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-08-20 11:11:27.041
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2016-08-20 11:11:28.337
+!MESSAGE The server "WildFly  9.x " requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_66 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-08-20 11:11:29.381
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-08-20 11:11:32.233
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-08-20 11:12:04.278
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2016-08-20 11:12:06.336
+!MESSAGE The server "WildFly  9.x " requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_66 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-08-20 11:12:07.386
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-08-20 11:12:10.356
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-08-20 11:13:59.271
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2016-08-20 11:14:03.235
+!MESSAGE The server "WildFly  9.x " requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_66 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-08-20 11:14:04.288
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-08-20 11:14:07.192
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-08-20 11:22:50.763
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2016-08-20 11:22:53.643
+!MESSAGE The server "WildFly  9.x " requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_66 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-08-20 11:22:54.692
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-08-20 11:22:57.096
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-08-20 11:25:59.008
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2016-08-20 11:26:04.018
+!MESSAGE The server "WildFly  9.x " requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_66 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-08-20 11:26:05.063
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-08-20 11:26:07.967
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-08-20 11:34:19.229
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2016-08-20 11:34:26.922
+!MESSAGE The server "WildFly  9.x " requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_66 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-08-20 11:34:27.962
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-08-20 11:34:30.264
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-08-20 11:40:40.030
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2016-08-20 11:40:43.736
+!MESSAGE The server "WildFly  9.x " requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_66 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-08-20 11:40:44.777
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-08-20 11:40:47.714
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-08-20 11:45:19.719
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2016-08-20 11:45:21.880
+!MESSAGE The server "WildFly  9.x " requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_66 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-08-20 11:45:22.939
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-08-20 11:45:25.341
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-08-20 11:46:42.135
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2016-08-20 11:46:43.367
+!MESSAGE The server "WildFly  9.x " requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_66 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-08-20 11:46:44.411
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-08-20 11:46:47.213
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-08-20 11:48:17.357
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2016-08-20 11:48:18.478
+!MESSAGE The server "WildFly  9.x " requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_66 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-08-20 11:48:19.525
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-08-20 11:48:22.327
+!MESSAGE Server Startup Succeeded
