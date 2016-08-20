@@ -1,0 +1,30 @@
+package br.com.fiap.ws;
+
+import java.util.List;
+
+import javax.jws.WebParam;
+import javax.jws.WebService;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.persistence.TypedQuery;
+
+import br.com.fiap.entity.Livros;
+
+@WebService(serviceName="livroWebService")
+public class LivrosWSImpl implements LivrosWebService {
+	
+	@PersistenceContext(unitName="fiapPU")
+	private EntityManager em;
+	@Override
+	public void add(@WebParam(name = "livro") Livros livro) {
+		em.persist(livro);
+	}
+
+	@Override
+	public List<Livros> getAll() {
+		TypedQuery<Livros> query = em.createQuery("select u from Livros u",
+				Livros.class);
+		return query.getResultList();
+	}
+
+}

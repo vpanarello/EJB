@@ -1,0 +1,21 @@
+package br.com.fiap.ws;
+
+import java.util.List;
+
+import br.com.fiap.entity.Livros;
+
+public class LivrosWebServiceImpl implements LivrosWebService {
+
+	@Override
+	public void add(Livros livro) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public List<Livros> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

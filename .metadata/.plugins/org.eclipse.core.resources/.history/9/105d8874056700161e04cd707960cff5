@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Exercicio03_LivrosWS">
+        <wb-resource deploy-path="/" source-path="/WebContent"/>
+        <property name="context-root" value="Exercicio03_LivrosWS"/>
+        <property name="java-output-path" value="/Exercicio03_LivrosWS/build/classes"/>
+    </wb-module>
+</project-modules>
