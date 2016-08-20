@@ -1,0 +1,16 @@
+package br.com.fiap.ws;
+
+@WebService(serviceName="CartaoWebService/cartaoendpoint")
+public class CartaoWebServiceImpl implements CartaoWebService {
+
+	@Override
+	public String validarCartao(String numCartao, double valor) {
+		if(numCartao.length() != 16){
+			return "Cartão inválido";
+		}
+		else {
+			return "Débito de " + valor + " efetuado com sucesso";
+		}
+	}
+
+}

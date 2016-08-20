@@ -38,4 +38,11 @@ public class FuncionariosBean implements FuncionariosBeanRemote {
 
 	}
 
+	@Override
+	public double CalcularIrpf(double salario) {
+		
+		
+
+	}
+
 }

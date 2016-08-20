@@ -1,0 +1,9 @@
+package br.com.fiap.ws;
+
+@WebService
+public interface CartaoWebService {
+	@WebMethod
+	String validarCartao(@WebParam(name="numero") String numCartao,@WebParam(name="valor") double valor);
+}  
+
+}

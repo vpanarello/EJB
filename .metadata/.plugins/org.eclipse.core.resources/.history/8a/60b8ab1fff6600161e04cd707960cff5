@@ -1,0 +1,11 @@
+package br.com.fiap.ws;
+
+public class CartaoWebServiceImpl implements CartaoWebService {
+
+	@Override
+	public String validarCartao(String numCartao, double valor) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
