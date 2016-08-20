@@ -1,0 +1,23 @@
+package br.com.fiap.entity;
+
+@Entity
+@Table(name="funcionarios", schema="funcionariossejb")
+public class Funcionario {
+	
+	@Column(name="cpf")
+	private String cpf;
+	@Column(name="nome")
+	private String nome;
+	@Column(name="cargo")
+	private String cargo;
+	@Column(name="salario")
+	private Double salario;
+	@Column(name="irpf")
+	private Double irpf;
+	@Column(name="inss")
+	private Double inss;
+	
+	
+	
+
+}
