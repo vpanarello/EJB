@@ -6,9 +6,14 @@
 <fullyQualifiedTypeName name="br.com.fiap.interfaces.CalculadoraLocal"/>
 <fullyQualifiedTypeName name="javax.ejb.Stateless"/>
 <fullyQualifiedTypeName name="javax.ejb.Stateful"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
 <fullyQualifiedTypeName name="br.com.fiap.interfaces.Cadastro"/>
 <fullyQualifiedTypeName name="javax.ejb.EJB"/>
+<fullyQualifiedTypeName name="br.com.fiap.entity.Funcionario"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="br.com.fiap.bean.FuncionariosBeanRemote"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="br.com.fiap.bean.LivrosBeanRemote"/>
+<fullyQualifiedTypeName name="br.com.fiap.bean.LivrosBean"/>
 </qualifiedTypeNameHistroy>

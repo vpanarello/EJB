@@ -11,8 +11,8 @@ import br.com.fiap.entity.Livros;
 @WebService
 @Remote
 public interface LivrosWebService {
-	@WebMethod
-	void adicionar(Livros livro);
+	
 	@WebMethod
 	List<Livros> listar();
+	
 }

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-<typeInfo handle="=01_FolhaPagamentoClient/ejbModule&lt;br.com.fiap.interfaces{FolhaPagamento.java[FolhaPagamento" modifiers="513" timestamp="1471476067066"/>
-<typeInfo handle="=02_CalculadoraClient/ejbModule&lt;br.com.fiap.interfaces{CalculadoraLocal.java[CalculadoraLocal" modifiers="513" timestamp="1471480141518"/>
-<typeInfo handle="=Exercicio_01Client/ejbModule&lt;br.com.fiap.interfaces{Cadastro.java[Cadastro" modifiers="513" timestamp="1471482325650"/>
-<typeInfo handle="=01_FolhaPagamentoWeb/C:\/opensource\/wildfly9\/modules\/system\/layers\/base\/javax\/servlet\/api\/main\/jboss-servlet-api_3.1_spec-1.0.0.Final.jar&lt;javax.servlet.http(HttpServlet.class[HttpServlet" modifiers="1057" timestamp="1445886916000"/>
+<typeInfo handle="=04_CartaoWS/src&lt;br.com.fiap.ws{CartaoWebService.java[CartaoWebService" modifiers="513" timestamp="1471715557573"/>
+<typeInfo handle="=03_LivrosEJB/ejbModule&lt;br.com.fiap.bean{LivrosBeanRemote.java[LivrosBeanRemote" modifiers="513" timestamp="1471696299412"/>
+<typeInfo handle="=03_LivrosEJB/ejbModule&lt;br.com.fiap.ws{LivrosWebService.java[LivrosWebService" modifiers="513" timestamp="1471720012132"/>
 </typeInfoHistroy>

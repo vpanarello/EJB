@@ -1,0 +1,7 @@
+package br.com.fiap.mdb.classes;
+
+import java.io.Serializable;
+
+public class Cliente implements Serializable {
+
+}
