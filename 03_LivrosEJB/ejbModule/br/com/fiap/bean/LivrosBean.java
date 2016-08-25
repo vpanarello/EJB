@@ -3,13 +3,16 @@ package br.com.fiap.bean;
 import java.util.List;
 
 import javax.ejb.Stateless;
+import javax.interceptor.Interceptors;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
 
 import br.com.fiap.entity.Livros;
+import br.com.fiap.interceptor.MonitorInterceptor;
 
 @Stateless
+@Interceptors({MonitorInterceptor.class})
 public class LivrosBean implements LivrosBeanRemote {
 
 	@PersistenceContext(unitName="fiapPU")
