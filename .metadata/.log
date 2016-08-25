@@ -3438,3 +3438,32 @@ org.tigris.subversion.subclipse.core.SVNException: Provided SVN information does
 
 !ENTRY org.jboss.ide.eclipse.as.core 4 0 2016-08-24 21:46:13.177
 !MESSAGE The server "WildFly  9.x " requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_66 
+
+!ENTRY org.tigris.subversion.subclipse.core 4 0 2016-08-24 22:04:29.476
+!MESSAGE Could not auto-share project Exercicio_04_cadastroMdb
+!STACK 1
+org.tigris.subversion.subclipse.core.SVNException: Provided SVN information does not match that on disk for project 'Exercicio_04_cadastroMdb'.
+	at org.tigris.subversion.subclipse.core.resources.SVNWorkspaceRoot.setSharing(SVNWorkspaceRoot.java:206)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.autoconnectSVNProject(SVNTeamProviderType.java:140)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.run(SVNTeamProviderType.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2016-08-24 22:04:29.476
+!MESSAGE Provided SVN information does not match that on disk for project 'Exercicio_04_cadastroMdb'.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2016-08-24 22:20:52.508
+!MESSAGE Unable to delete module
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-08-24 22:20:52.508
+!MESSAGE Could not delete C:\opensource\wildfly9\standalone\deployments\03_LivrosWeb.war. May be locked by another process.
+!SUBENTRY 2 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-08-24 22:20:52.508
+!MESSAGE Could not delete C:\opensource\wildfly9\standalone\deployments\03_LivrosWeb.war\WEB-INF. May be locked by another process.
+!SUBENTRY 3 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2016-08-24 22:20:52.508
+!MESSAGE Could not delete C:\opensource\wildfly9\standalone\deployments\03_LivrosWeb.war\WEB-INF. May be locked by another process.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2016-08-24 22:20:57.329
+!MESSAGE The server "WildFly  9.x " requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_66 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2016-08-24 22:22:26.647
+!MESSAGE The server "WildFly  9.x " requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_66 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2016-08-24 22:29:44.717
+!MESSAGE The server "WildFly  9.x " requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_66 
