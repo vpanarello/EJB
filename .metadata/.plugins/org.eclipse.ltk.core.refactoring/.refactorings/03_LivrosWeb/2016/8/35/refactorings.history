@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;cadastro.jsp&apos; to &apos;WebContent&apos;&#x0D;&#x0A;- Original project: &apos;03_LivrosWeb&apos;&#x0D;&#x0A;- Destination element: &apos;WebContent&apos;&#x0D;&#x0A;- Original element: &apos;cadastro.jsp&apos;" description="Copy file" element1="WebContent/cadastro.jsp" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1472089047259" target="/Exercicio_04_cadastroMdbClient/WebContent" units="0" version="1.0"/>
+</session>
