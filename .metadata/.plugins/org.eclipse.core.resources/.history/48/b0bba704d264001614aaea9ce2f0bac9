@@ -1,7 +1,0 @@
-package br.com.fiap.bean;
-
-import br.com.fiap.interfaces.FolhaPagamento;
-
-public interface FolhaPagamento implements  {
-
-}

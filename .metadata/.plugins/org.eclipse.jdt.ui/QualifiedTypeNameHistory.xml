@@ -14,6 +14,12 @@
 <fullyQualifiedTypeName name="java.io.Serializable"/>
 <fullyQualifiedTypeName name="br.com.fiap.bean.FuncionariosBeanRemote"/>
 <fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="br.com.fiap.bean.LivrosBeanRemote"/>
 <fullyQualifiedTypeName name="br.com.fiap.bean.LivrosBean"/>
+<fullyQualifiedTypeName name="javax.naming.InitialContext"/>
+<fullyQualifiedTypeName name="br.com.fiap.bean.LivrosBeanRemote"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="javax.interceptor.Interceptor"/>
+<fullyQualifiedTypeName name="br.com.fiap.interceptor.MonitorInterceptor"/>
+<fullyQualifiedTypeName name="javax.interceptor.Interceptors"/>
+<fullyQualifiedTypeName name="br.com.fiap.entity.Livros"/>
 </qualifiedTypeNameHistroy>

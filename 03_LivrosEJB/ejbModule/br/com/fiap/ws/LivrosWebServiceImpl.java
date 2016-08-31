@@ -16,15 +16,17 @@ public class LivrosWebServiceImpl implements LivrosWebService {
 
 	@Override
 	public List<Livros> listar() {
+		
+		List<Livros> livros = null;
 		try {
 			InitialContext ctx = new InitialContext();
-			LivrosBeanRemote service = (LivrosBeanRemote) ctx.lookup(name);
+			LivrosBeanRemote service = (LivrosBeanRemote) ctx.lookup("ejb:/03_LivrosEJB/LivrosBean!br.com.fiap.bean.LivrosBeanRemote");
 			
-			lista = service.getAll();
+			livros = service.getAll();
 		} catch (NamingException e) {
 			e.printStackTrace();
 		}
-		return lista;
+		return livros;
 	}
 
 

@@ -1,0 +1,18 @@
+package br.com.fiap.entity;
+
+import java.util.Date;
+
+public class Comentario {
+	
+	private int id;
+	
+	
+	private String titulo;
+	
+	
+	private String assunto;
+	
+	private Date data;
+	
+
+}
