@@ -1,5 +1,6 @@
 package br.com.fiap.entity;
 
+import java.io.Serializable;
 import java.util.Date;
 
 import javax.persistence.Column;
@@ -12,10 +13,10 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name="comentario", schema="ecommerce") 
-public class Comentario {
+public class Comentario implements Serializable {
 	
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@GeneratedValue(strategy=GenerationType.AUTO)
 	@Column(name="id")
 	private int id;
 	
@@ -27,6 +28,9 @@ public class Comentario {
 	
 	@Column(name="data")
 	private Date data;
+	
+	@Column(name="nota")
+	private double nota;
 
 	public int getId() {
 		return id;
@@ -54,6 +58,14 @@ public class Comentario {
 
 	public Date getData() {
 		return data;
+	}
+
+	public double getNota() {
+		return nota;
+	}
+
+	public void setNota(double nota) {
+		this.nota = nota;
 	}
 
 	public void setData(Date data) {

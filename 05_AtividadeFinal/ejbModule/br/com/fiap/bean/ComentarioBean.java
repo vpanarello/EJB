@@ -2,13 +2,14 @@ package br.com.fiap.bean;
 
 import java.util.List;
 
+import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
 
 import br.com.fiap.entity.Comentario;
 
-
+@Stateless
 public class ComentarioBean implements  ComentarioBeanRemote {
 
 	@PersistenceContext(unitName="fiapPU")
@@ -22,7 +23,7 @@ public class ComentarioBean implements  ComentarioBeanRemote {
 	@Override
 	public List<Comentario> getAll() {
 
-		TypedQuery<Comentario> query = em.createQuery("select u from Livros u",
+		TypedQuery<Comentario> query = em.createQuery("select c from Comentario c",
 				Comentario.class);
 		return query.getResultList();
 	}

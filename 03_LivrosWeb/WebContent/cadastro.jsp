@@ -14,10 +14,8 @@
 		<h2>Cadastro de Livros</h2><br>
 		<label>Insira Título:</label><br>
 		<input type="text" name="titulo"><br>
-		<label>Insira Autor:</label><br>
-		<input type="text" name="autor"><br>
-		<label>Insira Preço:</label><br>
-		<input type="text" name="preco"> <br>
+		<label>Insira Assunto:</label><br>
+		<input size="50" type="text" name="assunto"><br>
 		<input type="submit" name="submeter" value="Submeter">
 	
 	
