@@ -2,12 +2,13 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="Started message driven bean &apos;QueueListenerMDB" key="selection"/>
+		<item value="Bound data" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="bound data"/>
 			<item value="Started message driven bean &apos;QueueListenerMDB"/>
 			<item value="livrosWebService"/>
 		</list>

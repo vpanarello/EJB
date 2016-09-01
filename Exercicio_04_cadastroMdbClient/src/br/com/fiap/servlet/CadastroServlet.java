@@ -1,74 +1,70 @@
-
+package br.com.fiap.servlet;
 
 import java.io.IOException;
-import java.util.List;
 
-import javax.naming.InitialContext;
-import javax.naming.NamingException;
+import javax.annotation.Resource;
+import javax.jms.Connection;
+import javax.jms.ConnectionFactory;
+import javax.jms.JMSException;
+import javax.jms.MessageProducer;
+import javax.jms.ObjectMessage;
+import javax.jms.Queue;
+import javax.jms.Session;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import br.com.fiap.entity.Livros;
 
-@WebServlet("/livros")
+
+@WebServlet("/mdb")
 public class CadastroServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
+	@Resource(mappedName = "java:/queue/ExemploQueue")
+	private Queue fila;
+	
+	@Resource(mappedName = "java:/ConnectionFactory")
+	private ConnectionFactory connectionFactory;
+	
     public CadastroServlet() {
         super();
-        
+        // TODO Auto-generated constructor stub
     }
-
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		try {
-			InitialContext ctx = new InitialContext();
-			LivrosBeanRemote service = (LivrosBeanRemote) ctx.lookup("ejb:/03_LivrosEJB/LivrosBean!br.com.fiap.bean.LivrosBeanRemote");
-			
-			List<Livros> lista = service.getAll();
-			
-			request.setAttribute("lista", lista);
-			request.getRequestDispatcher("lista.jsp").forward(request, response);
-			
-			} catch (NamingException e) {
+			Connection connection = connectionFactory.createConnection();
+			try {
+				Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
+				MessageProducer messageProducer = session.createProducer(fila);
+				
+				ObjectMessage objMessage = session.createObjectMessage();
+				Livros livro = new Livros();
+				
+				livro.setTitulo(request.getParameter("titulo"));
+				livro.setAutor(request.getParameter("autor"));
+				livro.setPreco(Double.parseDouble(request.getParameter("preco")));
+				
+				objMessage.setObject(livro);
+				messageProducer.send(objMessage);
+				messageProducer.close();
+				
+				request.getRequestDispatcher("lista.jsp").forward(request, response);
+				
+			} finally {
+				connection.close();
+			}
+		} catch (JMSException e) {
 			e.printStackTrace();
 		}
 		
 		
-		
-	
-		// response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
-
-
+	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
-		Livros livro =  new Livros();
-		
-		livro.setAutor(request.getParameter("autor"));
-		livro.setTitulo(request.getParameter("titulo"));
-		livro.setPreco(Double.parseDouble(request.getParameter("preco")));
-		
-		try {
-			InitialContext ctx = new InitialContext();
-			LivrosBeanRemote service = (LivrosBeanRemote) ctx.lookup("ejb:/03_LivrosEJB/LivrosBean!br.com.fiap.bean.LivrosBeanRemote");
-			
-			service.add(livro);
-			
-			request.setAttribute("ok", true);
-			
-			
-			doGet(request, response);
-			
-			
-		} catch (NamingException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	
 	}
-
 }

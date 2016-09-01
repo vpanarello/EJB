@@ -5,14 +5,28 @@
 	xmlns:f="http://java.sun.com/jsf/core"
 	xmlns:c="http://java.sun.com/jsp/jstl/core">
 <h:head>
-	<title>Cadastro de Escolas</title>
+	<title>Lista de comentarios</title>
 	<link rel="stylesheet" type="text/css" href="css/geral.css"></link>
 </h:head>
+
+<style>
+
+th {
+	padding: 20px;
+	border: solid black;
+	}
+	
+td {
+	padding: 20px;
+	border-top: solid black 1px;
+	}
+
+</style>
 
 <h:body>
 <!-- 	<ui:include src="/menu.xhtml" /> -->
 
-	<h2>Alunos</h2>
+	<h2>Comentarios</h2>
 
 <!-- 	<c:if test="#{comentarioBean.status==1}"> -->
 <!-- 		<h5 class="message">Cadastro de escola realizado com sucesso</h5> -->
@@ -40,6 +54,10 @@
 		<h:column>
 			<f:facet name="header">Data</f:facet>
 			<h:outputText value="#{com.data}" />
+		</h:column>
+				<h:column>
+			<f:facet name="header">Nota</f:facet>
+			<h:outputText value="#{com.nota}" />
 		</h:column>
 
 <!-- action="#{someController.doSomething(id += 'SomeTableId')}" -->
